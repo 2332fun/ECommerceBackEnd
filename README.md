@@ -19,7 +19,7 @@ What: My motivation for this project was to make a back end for the e-commerce c
 
 ## Installation
 
-Need MySQL2, node.js, dotenv, express, sequelize, inquirer, insomnia, and console.table.
+Need MySQL2, node.js, dotenv, express, sequelize, insomnia, and console.table.
 
 ## Usage
 
