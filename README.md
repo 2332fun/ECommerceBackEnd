@@ -24,7 +24,7 @@ Need MySQL2, node.js, dotenv, express, sequelize, insomnia, and console.table.
 ## Usage
 
 * [Link to Webpage](https://2332fun.github.io/ECommerceBackEnd/)
-![Screenshot](/public/assets/images/screenshot.PNG "Screenshot")
+![Screenshot](/assets/images/screenshot.PNG "Screenshot")
 
 ## Credits
 
