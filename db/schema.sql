@@ -1,8 +1,5 @@
--- FILE DONE
-
-
--- DROP DATABASE
+-- Delete old database if it exists
 DROP DATABASE IF EXISTS ecommerce_db;
 
--- CREATE DATABASE
+-- Create new database
 CREATE DATABASE ecommerce_db;

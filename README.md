@@ -1,49 +1,62 @@
-# orm-e-commerce
+# EmployeeTrackDB
 
 ## Description
 
-Back-end application for an e-commerce site. A working Express.js API was configured to use Sequelize to interact with a MySQL database with the intent to provide a manager for an internet retail company with a competitive technology operational within the constructs of e-commerce.
+What: My motivation for this project was to make a back end for the e-commerce company. My efforts allowed the user to connect to a database using Sequelize, then is given a development database when the schema and seeds are sourced. When entering the command to invoke the application, the server is started and the Sequelize models are synced to the MySQL database. The user is able to open and use the routes in Insomnia.
 
-Given a functional Express.js API, the user adds the database name, MySQL username, and MySQL password to an environment variable file which enable the user to connect to a database using Sequelize.
+* [Link to Webpage](https://2332fun.github.io/ECommerceBackEnd/)
 
-Utilizing schema and seeds commands generates a development database that is created and seeded with test data.
+## Table of Contents
 
-When the user enters the command to invoke the application, the server is started and the Sequelize models are synced to the MySQL database.
-
-When user opens API GET routes in Insomnia for categories, products, or tags, then the data for each of these routes is displayed in a formatted JSON.
-
-Testing API POST, PUT, and DELETE routes in Insomnia allows user to successfully create, update, and delete data in the database.
-
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+* [Badges](#badges)
+* [Features](#features)
+* [Contributing](#contributing)
+* [Tests](#tests)
 
 ## Installation
-* npm
-* inquirer
-* mysql2
-* console.table
-* path
+
+Need MySQL2, node.js, dotenv, express, sequelize, inquirer, insomnia, and console.table.
 
 ## Usage
-Provide options for business owners to organize information pertinent to personnel.
 
+* [Link to Webpage](https://2332fun.github.io/ECommerceBackEnd/)
+![Screenshot](/public/assets/images/screenshot.PNG "Screenshot")
 
-## Website
-Github: https://cphill11.github.io/orm-e-commerce/
+## Credits
 
-Screencastify link: https://drive.google.com/file/d/1KsR1-ujLSQgkFjxi6I7vUrxBVbkkcrdX/view
-
-## Image
-
-![Screenshot](/assets/images/screenshot.png)
-
-## Credits:
-
-Criste Phillips 
+* [Shields.io Link](https://shields.io/): Used to create My Shield found in Badges below.
+* [License Link](https://choosealicense.com/licenses/gpl-3.0/): Used to determine and copy the correct license for the project found in License below and the COPYING.txt file.
+* [Contributor Covenant Link](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md): Used to obtain a proper code of conduct for contribution found in Contributing below.
+* [Markdown Guide](https://www.markdownguide.org/basic-syntax/): Used to setup the format of the README.md.
 
 ## License
-MIT
+
+GNU General Public License v3.0
+
+Copyright (C) 2022 Diana Taylor
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 ## Badges
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+
+[![My Shield](https://img.shields.io/badge/2332fun-2332fun%20contributed%20to%20this%20project.-blueviolet)](https://github.com/2332fun)
+
+## Features
+
+The inquirer prompts feature life quality back and quit buttons.
 
 ## Contributing
-Sticky paws off unless checking with original creator first.  No exceptions.
+
+If you are interested in contributing to this project, please read the contributor covenant found at [Contributor Covenant Link](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md). Then email me at <mirachan2332@gmail.com> to further collaborate.
+
+## Tests
+
+No tests.
