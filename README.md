@@ -5,6 +5,7 @@
 What: My motivation for this project was to make a back end for the e-commerce company. My efforts allowed the user to connect to a database using Sequelize, then is given a development database when the schema and seeds are sourced. When entering the command to invoke the application, the server is started and the Sequelize models are synced to the MySQL database. The user is able to open and use the routes in Insomnia.
 
 * [Link to Webpage](https://2332fun.github.io/ECommerceBackEnd/)
+* [Screencastify](https://drive.google.com/file/d/1QtOCQtQMOSOmFuVRutqpHgyi2iAwJGon/view)
 
 ## Table of Contents
 
